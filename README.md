@@ -3,7 +3,7 @@
 **UnityNet** is an AI-powered social media web application designed to provide a seamless and engaging user experience. Built with modern technologies, UnityNet combines the power of artificial intelligence with robust real-time features to create a dynamic platform for sharing, connecting, and discovering content.
 
 ## 🚀 Live Demo
-[Live Link](#) (Update this with the deployed link once available)
+[Live Link](https://unitynet-webapp.vercel.app)
 
 ## 📸 Screenshots
 
