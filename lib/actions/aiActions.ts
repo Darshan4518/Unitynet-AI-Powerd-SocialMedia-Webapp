@@ -8,7 +8,19 @@ if (!process.env.GEMINI_API_KEY) {
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const model: GenerativeModel = genAI.getGenerativeModel({
+<<<<<<< HEAD
   model: "gemini-pro",
+=======
+<<<<<<< HEAD
+  model: "gemini-pro",
+=======
+<<<<<<< HEAD
+  model: "gemini-pro",
+=======
+  model: "gemini-2.0-flash",
+>>>>>>> story-part
+>>>>>>> e146371 (Initial commit)
+>>>>>>> 1c83196 (some issue fixed)
 });
 
 export async function generateCaption(prompt: string): Promise<string> {

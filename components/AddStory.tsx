@@ -88,6 +88,17 @@ export default function AddStory() {
                       src={previewUrl}
                       alt="Story preview"
                       className="w-full h-full object-cover rounded-lg"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                      width={100}
+                      height={100}
+>>>>>>> story-part
+>>>>>>> e146371 (Initial commit)
+>>>>>>> 1c83196 (some issue fixed)
                     />
                     <motion.button
                       whileHover={{ scale: 1.1 }}
