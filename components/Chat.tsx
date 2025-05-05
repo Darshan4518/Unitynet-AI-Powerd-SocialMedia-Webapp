@@ -86,10 +86,6 @@ const Chat: React.FC<ChatProps> = ({ selectedUser, userId }) => {
   }, [messages]);
 
   return (
-
-    <div className="w-full h-full flex-1 bg-gradient-to-b from-gray-900 to-black text-white flex flex-col">
-    <div className="w-full h-full flex-1 bg-gradient-to-b from-gray-900 to-black text-white flex flex-col">
-    <div className="w-full h-full flex-1 bg-gradient-to-b from-gray-900 to-black text-white flex flex-col">
     <div className="w-full h-full flex-1 bg-gradient-to-b from-gray-900 to-black text-white  flex-col hidden">
       <div className="flex-1 overflow-y-auto p-3 lg:max-h-[85vh] max-h-[75vh]">
         <div className="mb-6 flex items-center">
@@ -102,9 +98,7 @@ const Chat: React.FC<ChatProps> = ({ selectedUser, userId }) => {
         <div className="space-y-3">
           {messages.map((message, index) => (
             <div
-              className={`flex ${
-                message.sender === userId ? "justify-end" : "justify-start"
-              }`}
+              className={`flex ${message.sender === userId ? "justify-end" : "justify-start"}`}
               key={index}
             >
               <div
