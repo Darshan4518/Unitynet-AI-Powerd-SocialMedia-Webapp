@@ -61,27 +61,13 @@ const NavigationSideBar = () => {
       path: "/explore",
     },
     { icon: <Video className="w-6 h-6" />, text: "Reels", path: "/reels" },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e146371 (Initial commit)
->>>>>>> 1c83196 (some issue fixed)
+
     {
       icon: <MessageCircle className="w-6 h-6" />,
       text: "Messages",
       path: "/chat",
     },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-   
->>>>>>> story-part
->>>>>>> e146371 (Initial commit)
->>>>>>> 1c83196 (some issue fixed)
+
     {
       icon: <BotIcon className="w-6 h-6" />,
       text: "AskGenie",

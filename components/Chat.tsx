@@ -86,19 +86,11 @@ const Chat: React.FC<ChatProps> = ({ selectedUser, userId }) => {
   }, [messages]);
 
   return (
-<<<<<<< HEAD
+
     <div className="w-full h-full flex-1 bg-gradient-to-b from-gray-900 to-black text-white flex flex-col">
-=======
-<<<<<<< HEAD
     <div className="w-full h-full flex-1 bg-gradient-to-b from-gray-900 to-black text-white flex flex-col">
-=======
-<<<<<<< HEAD
     <div className="w-full h-full flex-1 bg-gradient-to-b from-gray-900 to-black text-white flex flex-col">
-=======
     <div className="w-full h-full flex-1 bg-gradient-to-b from-gray-900 to-black text-white  flex-col hidden">
->>>>>>> story-part
->>>>>>> e146371 (Initial commit)
->>>>>>> 1c83196 (some issue fixed)
       <div className="flex-1 overflow-y-auto p-3 lg:max-h-[85vh] max-h-[75vh]">
         <div className="mb-6 flex items-center">
           <Avatar className="h-8 w-8 ring-2 ring-white m-4">
